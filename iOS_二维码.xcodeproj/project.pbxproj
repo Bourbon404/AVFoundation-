@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57207A1F1890C02B00F3F712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57207A1E1890C02B00F3F712 /* Foundation.framework */; };
+		57207A211890C02B00F3F712 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57207A201890C02B00F3F712 /* CoreGraphics.framework */; };
+		57207A231890C02B00F3F712 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57207A221890C02B00F3F712 /* UIKit.framework */; };
+		57207A291890C02B00F3F712 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57207A271890C02B00F3F712 /* InfoPlist.strings */; };
+		57207A2B1890C02B00F3F712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57207A2A1890C02B00F3F712 /* main.m */; };
+		57207A2F1890C02B00F3F712 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57207A2E1890C02B00F3F712 /* AppDelegate.m */; };
+		57207A311890C02B00F3F712 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57207A301890C02B00F3F712 /* Images.xcassets */; };
+		57207A381890C02B00F3F712 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57207A371890C02B00F3F712 /* XCTest.framework */; };
+		57207A391890C02B00F3F712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57207A1E1890C02B00F3F712 /* Foundation.framework */; };
+		57207A3A1890C02B00F3F712 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57207A221890C02B00F3F712 /* UIKit.framework */; };
+		57207A421890C02B00F3F712 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57207A401890C02B00F3F712 /* InfoPlist.strings */; };
+		57207A441890C02B00F3F712 /* iOS____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57207A431890C02B00F3F712 /* iOS____Tests.m */; };
+		57207A4F1890C42900F3F712 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57207A4E1890C42900F3F712 /* ViewController.m */; };
+		57207A511890C48200F3F712 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57207A501890C48200F3F712 /* AVFoundation.framework */; };
+		57207A541890C4A700F3F712 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57207A521890C4A700F3F712 /* line@2x.png */; };
+		57207A551890C4A700F3F712 /* pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57207A531890C4A700F3F712 /* pick_bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57207A3B1890C02B00F3F712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57207A131890C02B00F3F712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57207A1A1890C02B00F3F712;
+			remoteInfo = "iOS_二维码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57207A1B1890C02B00F3F712 /* iOS_二维码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS_二维码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57207A1E1890C02B00F3F712 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57207A201890C02B00F3F712 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57207A221890C02B00F3F712 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57207A261890C02B00F3F712 /* iOS_二维码-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_二维码-Info.plist"; sourceTree = "<group>"; };
+		57207A281890C02B00F3F712 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57207A2A1890C02B00F3F712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57207A2C1890C02B00F3F712 /* iOS_二维码-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_二维码-Prefix.pch"; sourceTree = "<group>"; };
+		57207A2D1890C02B00F3F712 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57207A2E1890C02B00F3F712 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57207A301890C02B00F3F712 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57207A361890C02B00F3F712 /* iOS_二维码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS_二维码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57207A371890C02B00F3F712 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		57207A3F1890C02B00F3F712 /* iOS_二维码Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_二维码Tests-Info.plist"; sourceTree = "<group>"; };
+		57207A411890C02B00F3F712 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57207A431890C02B00F3F712 /* iOS____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____Tests.m"; sourceTree = "<group>"; };
+		57207A4D1890C42900F3F712 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57207A4E1890C42900F3F712 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57207A501890C48200F3F712 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		57207A521890C4A700F3F712 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		57207A531890C4A700F3F712 /* pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57207A181890C02B00F3F712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57207A511890C48200F3F712 /* AVFoundation.framework in Frameworks */,
+				57207A211890C02B00F3F712 /* CoreGraphics.framework in Frameworks */,
+				57207A231890C02B00F3F712 /* UIKit.framework in Frameworks */,
+				57207A1F1890C02B00F3F712 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57207A331890C02B00F3F712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57207A381890C02B00F3F712 /* XCTest.framework in Frameworks */,
+				57207A3A1890C02B00F3F712 /* UIKit.framework in Frameworks */,
+				57207A391890C02B00F3F712 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57207A121890C02B00F3F712 = {
+			isa = PBXGroup;
+			children = (
+				57207A241890C02B00F3F712 /* iOS_二维码 */,
+				57207A3D1890C02B00F3F712 /* iOS_二维码Tests */,
+				57207A1D1890C02B00F3F712 /* Frameworks */,
+				57207A1C1890C02B00F3F712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57207A1C1890C02B00F3F712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57207A1B1890C02B00F3F712 /* iOS_二维码.app */,
+				57207A361890C02B00F3F712 /* iOS_二维码Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57207A1D1890C02B00F3F712 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57207A501890C48200F3F712 /* AVFoundation.framework */,
+				57207A1E1890C02B00F3F712 /* Foundation.framework */,
+				57207A201890C02B00F3F712 /* CoreGraphics.framework */,
+				57207A221890C02B00F3F712 /* UIKit.framework */,
+				57207A371890C02B00F3F712 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57207A241890C02B00F3F712 /* iOS_二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				57207A521890C4A700F3F712 /* line@2x.png */,
+				57207A531890C4A700F3F712 /* pick_bg@2x.png */,
+				57207A2D1890C02B00F3F712 /* AppDelegate.h */,
+				57207A2E1890C02B00F3F712 /* AppDelegate.m */,
+				57207A301890C02B00F3F712 /* Images.xcassets */,
+				57207A251890C02B00F3F712 /* Supporting Files */,
+				57207A4D1890C42900F3F712 /* ViewController.h */,
+				57207A4E1890C42900F3F712 /* ViewController.m */,
+			);
+			path = "iOS_二维码";
+			sourceTree = "<group>";
+		};
+		57207A251890C02B00F3F712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57207A261890C02B00F3F712 /* iOS_二维码-Info.plist */,
+				57207A271890C02B00F3F712 /* InfoPlist.strings */,
+				57207A2A1890C02B00F3F712 /* main.m */,
+				57207A2C1890C02B00F3F712 /* iOS_二维码-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57207A3D1890C02B00F3F712 /* iOS_二维码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				57207A431890C02B00F3F712 /* iOS____Tests.m */,
+				57207A3E1890C02B00F3F712 /* Supporting Files */,
+			);
+			path = "iOS_二维码Tests";
+			sourceTree = "<group>";
+		};
+		57207A3E1890C02B00F3F712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57207A3F1890C02B00F3F712 /* iOS_二维码Tests-Info.plist */,
+				57207A401890C02B00F3F712 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57207A1A1890C02B00F3F712 /* iOS_二维码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57207A471890C02B00F3F712 /* Build configuration list for PBXNativeTarget "iOS_二维码" */;
+			buildPhases = (
+				57207A171890C02B00F3F712 /* Sources */,
+				57207A181890C02B00F3F712 /* Frameworks */,
+				57207A191890C02B00F3F712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS_二维码";
+			productName = "iOS_二维码";
+			productReference = 57207A1B1890C02B00F3F712 /* iOS_二维码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57207A351890C02B00F3F712 /* iOS_二维码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57207A4A1890C02B00F3F712 /* Build configuration list for PBXNativeTarget "iOS_二维码Tests" */;
+			buildPhases = (
+				57207A321890C02B00F3F712 /* Sources */,
+				57207A331890C02B00F3F712 /* Frameworks */,
+				57207A341890C02B00F3F712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57207A3C1890C02B00F3F712 /* PBXTargetDependency */,
+			);
+			name = "iOS_二维码Tests";
+			productName = "iOS_二维码Tests";
+			productReference = 57207A361890C02B00F3F712 /* iOS_二维码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57207A131890C02B00F3F712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = bourbon;
+				TargetAttributes = {
+					57207A351890C02B00F3F712 = {
+						TestTargetID = 57207A1A1890C02B00F3F712;
+					};
+				};
+			};
+			buildConfigurationList = 57207A161890C02B00F3F712 /* Build configuration list for PBXProject "iOS_二维码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57207A121890C02B00F3F712;
+			productRefGroup = 57207A1C1890C02B00F3F712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57207A1A1890C02B00F3F712 /* iOS_二维码 */,
+				57207A351890C02B00F3F712 /* iOS_二维码Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57207A191890C02B00F3F712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57207A291890C02B00F3F712 /* InfoPlist.strings in Resources */,
+				57207A541890C4A700F3F712 /* line@2x.png in Resources */,
+				57207A551890C4A700F3F712 /* pick_bg@2x.png in Resources */,
+				57207A311890C02B00F3F712 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57207A341890C02B00F3F712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57207A421890C02B00F3F712 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57207A171890C02B00F3F712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57207A4F1890C42900F3F712 /* ViewController.m in Sources */,
+				57207A2F1890C02B00F3F712 /* AppDelegate.m in Sources */,
+				57207A2B1890C02B00F3F712 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57207A321890C02B00F3F712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57207A441890C02B00F3F712 /* iOS____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57207A3C1890C02B00F3F712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57207A1A1890C02B00F3F712 /* iOS_二维码 */;
+			targetProxy = 57207A3B1890C02B00F3F712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57207A271890C02B00F3F712 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57207A281890C02B00F3F712 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57207A401890C02B00F3F712 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57207A411890C02B00F3F712 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57207A451890C02B00F3F712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57207A461890C02B00F3F712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57207A481890C02B00F3F712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_二维码/iOS_二维码-Prefix.pch";
+				INFOPLIST_FILE = "iOS_二维码/iOS_二维码-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57207A491890C02B00F3F712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_二维码/iOS_二维码-Prefix.pch";
+				INFOPLIST_FILE = "iOS_二维码/iOS_二维码-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57207A4B1890C02B00F3F712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS_二维码.app/iOS_二维码";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_二维码/iOS_二维码-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS_二维码Tests/iOS_二维码Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		57207A4C1890C02B00F3F712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS_二维码.app/iOS_二维码";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_二维码/iOS_二维码-Prefix.pch";
+				INFOPLIST_FILE = "iOS_二维码Tests/iOS_二维码Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57207A161890C02B00F3F712 /* Build configuration list for PBXProject "iOS_二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57207A451890C02B00F3F712 /* Debug */,
+				57207A461890C02B00F3F712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57207A471890C02B00F3F712 /* Build configuration list for PBXNativeTarget "iOS_二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57207A481890C02B00F3F712 /* Debug */,
+				57207A491890C02B00F3F712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57207A4A1890C02B00F3F712 /* Build configuration list for PBXNativeTarget "iOS_二维码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57207A4B1890C02B00F3F712 /* Debug */,
+				57207A4C1890C02B00F3F712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57207A131890C02B00F3F712 /* Project object */;
+}
